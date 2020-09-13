@@ -1,0 +1,70 @@
+/* GLOBAL */
+
+body {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:"quicksand",sans-serif;
+}
+
+header {
+    height:80px;
+    background:rgb(43, 43, 43);
+    margin-top:-17px;
+}
+
+nav {
+    margin:10px;
+    padding:10px;
+}
+
+li {
+    display:inline;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    float:left;
+    padding:5px;
+}
+
+/* STYLES */
+
+#showcase {
+    background-image:url("https://images.pexels.com/photos/97082/weimaraner-puppy-dog-snout-97082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:1000px;
+    opacity:0.8;
+    margin:-35px;
+}
+
+#showcase h3 {
+   text-align:center;
+   color:white;
+   padding-top:900px;
+   font-size:35px;
+}
+
+#showcase p {
+   text-align:center;
+   color:white;
+   font-size:28px;
+   margin-top:-20px;
+}
+
+#bottom-section {
+    margin:20px;
+    padding:20px;
+    margin:auto;
+    text-align:center;
+    margin-top:90px;
+    min-width:400px;
+}
+
+footer {
+    text-align:center;
+    margin-top:90px;
+}
